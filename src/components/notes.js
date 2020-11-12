@@ -1,0 +1,1 @@
+//This will be where the trainer or user can add notes about the workout

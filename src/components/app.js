@@ -1,9 +1,9 @@
 import React from "react";
-import { BrowserRouter, Switch, Route } from "react-router-dom";
-import AddMoviePage from "../pages/add-movie-page";
-import EditMoviePage from "../pages/edit-movie-page";
-import MoviesPage from "../pages/movies-page";
-import NotFoundPage from "../pages/not-found-page";
+// import { BrowserRouter, Switch, Route } from "react-router-dom";
+import { WorkoutLog } from "../data/firebase";
+import AddWorkoutPage from "../add-workout";
+import MovesPage from "../components/moves";
+import NotFoundPage from "../components/not-found-page";
 import Nav from "./nav";
 
 function App() {
@@ -13,15 +13,15 @@ function App() {
 
       <Switch>
         <Route path="/" exact>
-          <MoviesPage />
+          <WorkoutLogPage />
         </Route>
 
         <Route path="/add">
-          <AddMoviePage />
+          <AddWorkoutPage />
         </Route>
 
         <Route path="/edit/:id">
-          <EditMoviePage />
+          <EditWorkoutLogPage />
         </Route>
 
         <Route path="*">

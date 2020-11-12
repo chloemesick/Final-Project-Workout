@@ -2,15 +2,15 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./nav.css";
 
-function Nav() {
+ function Nav() {
   return (
     <nav className="nav">
       <Link className="nav__link" to="/">
-        All Movies
+        All Workouts
       </Link>{" "}
       |{" "}
       <Link className="nav__link" to="/add">
-        Add Movie
+        Add Move
       </Link>
     </nav>
   );

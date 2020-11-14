@@ -1,6 +1,6 @@
 .workout-form {
     padding: 1.5rem;
-    background-color: lightblue;
+    background-colo;
     color: #151116;
     border-radius: 10px;
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
@@ -37,7 +37,7 @@
   
   .workout-form__submit {
     margin: 1rem 0 0 0;
-    padding: 0.35rem 0.75rem;
+    padding: 0.25rem 0.75rem;
     grid-column: 1 / 3;
     justify-self: center;
   }

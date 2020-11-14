@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+\import React, { useState } from "react";
 import { Delete, Edit } from "@material-ui/icons";
 import { useHistory } from "react-router-dom";
 import ErrorMessage from "./error-message";
@@ -9,6 +9,7 @@ function Workout(props) {
   const { id, data } = props;
   const { dateAdded, focus, moves, notes, reps, timing } = data;
 
+//   const focusString = "💚".repeat(focus) + "🤍".repeat(5 - focus);
 
   const history = useHistory();
   const [isDeleting, setIsDeleting] = useState(false);
@@ -32,7 +33,7 @@ function Workout(props) {
   return (
     <div className="workout">
       <div className="workout__contents">
-        <div className="workout__dateAdded">{dateAdded}</div>
+        <div className="workout__dateAdded">{dateString}</div>
         <div className="workout__focus">{focus}</div>
         <div className="workout__moves">{moves}</div>
         <div className="workout__reps">{reps}</div>

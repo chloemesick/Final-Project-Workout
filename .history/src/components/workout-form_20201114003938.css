@@ -1,12 +1,12 @@
-.workout-form {
+.movie-form {
     padding: 1.5rem;
-    background-color: lightblue;
+    background-color: #fff;
     color: #151116;
     border-radius: 10px;
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
   }
   
-  .workout-form__message {
+  .movie-form__message {
     text-align: center;
   }
   
@@ -20,13 +20,13 @@
     border: none;
   }
   
-  .workout-form__title {
+  .movie-form__title {
     margin: 0 0 1rem 0;
     grid-column: 1 / 3;
     text-align: center;
   }
   
-  .workout-form__label {
+  .movie-form__label {
     grid-column: 1 / 2;
     margin-right: 5px;
   }
@@ -37,7 +37,7 @@
   
   .workout-form__submit {
     margin: 1rem 0 0 0;
-    padding: 0.35rem 0.75rem;
+    padding: 0.25rem 0.75rem;
     grid-column: 1 / 3;
     justify-self: center;
   }

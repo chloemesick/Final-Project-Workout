@@ -10,6 +10,7 @@ function Workout(props) {
   const { dateAdded, focus, moves, notes, reps, timing } = data;
 
 
+
   const history = useHistory();
   const [isDeleting, setIsDeleting] = useState(false);
   const [errorMessage, setErrorMessage] = useState("");

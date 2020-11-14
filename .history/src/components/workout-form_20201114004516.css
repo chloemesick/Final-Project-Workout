@@ -32,7 +32,7 @@
   }
   
   .workout-form__input {
-    grid-column: 2 / 3;
+    grid-column: 3/ 3;
   }
   
   .workout-form__submit {

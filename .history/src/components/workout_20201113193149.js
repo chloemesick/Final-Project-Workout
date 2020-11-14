@@ -26,13 +26,14 @@ function Workout(props) {
       setIsDeleting(false);
     }
   };
-  // const date = dateAdded.toDate();
-  // const dateString = date.toLocaleDate
+  const date = dateAdded.toDate();
+  const dateString = date.toLocaleDateString();
+  console.log(dateString);
 
   return (
     <div className="workout">
       <div className="workout__contents">
-        <div className="workout__dateAdded">{dateAdded}</div>
+        <div className="workout__dateAdded">{dateString}</div>
         <div className="workout__focus">{focus}</div>
         <div className="workout__moves">{moves}</div>
         <div className="workout__reps">{reps}</div>

@@ -20,7 +20,7 @@
     border: none;
   }
   
-  .workout-form__title {
+  .workout-form__f {
     margin: 0 0 1rem 0;
     grid-column: 1 / 3;
     text-align: center;
@@ -37,7 +37,7 @@
   
   .workout-form__submit {
     margin: 1rem 0 0 0;
-    padding: 0.35rem 0.75rem;
+    padding: 0.5rem 0.75rem;
     grid-column: 1 / 3;
     justify-self: center;
   }

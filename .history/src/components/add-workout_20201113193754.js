@@ -8,7 +8,8 @@ function AddWorkout() {
   const [formMessage, setFormMessage] = useState("");
 
   const onWorkoutSumbit = async (dateAdded, focus, moves, reps, timing, notes) => {
-    
+    //alert(`You want to add: ${title}, ${rating}, ${releaseYear}.`);
+
     setIsSaving(true);
     setFormMessage("");
 

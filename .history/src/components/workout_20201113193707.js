@@ -9,6 +9,7 @@ function Workout(props) {
   const { id, data } = props;
   const { dateAdded, focus, moves, notes, reps, timing } = data;
 
+//   const focusString = "💚".repeat(focus) + "🤍".repeat(5 - focus);
 
   const history = useHistory();
   const [isDeleting, setIsDeleting] = useState(false);

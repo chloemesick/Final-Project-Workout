@@ -8,4 +8,5 @@ _Here is a photo of my app in the browser and my write up schematics_
 
 <img src="src/images/browser-screenshot.png" width="700" height="500">
 
-<img src="src/images/schematics.png" width="700" height="500">
+<img src="src/images/schematics.png" width="600" height="500">
+

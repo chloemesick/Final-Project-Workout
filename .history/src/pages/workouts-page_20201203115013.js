@@ -1,14 +1,14 @@
 import React from "react";
 import { Helmet } from "react-helmet";
-import WorkoutListing from "./workout-listing";
+import MovieListing from "../components/movie-listing";
 
-function WorkoutsPage() {
+function WorloutsPage() {
   return (
     <main>
       <Helmet>
         <title>Workouts</title>
       </Helmet>
-      <WorkoutListing />
+      <MovieListing />
     </main>
   );
 }

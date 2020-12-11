@@ -1,0 +1,6 @@
+.add-container {
+  display: fixed;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

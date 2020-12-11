@@ -27,12 +27,12 @@
 }
 
 .workout-form__label {
-  grid-column: 1 / 2;
+  grid-column: 1 / ;
   margin-right: 5px;
 }
 
 .workout-form__input {
-  grid-column: 2 / 3;
+  grid-column: 1 / 2;
 }
 
 .workout-form__submit {

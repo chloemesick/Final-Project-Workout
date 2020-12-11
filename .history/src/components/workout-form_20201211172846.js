@@ -85,9 +85,12 @@ function WorkoutForm(props) {
           onChange={onFocusChange}
         />
         <label className="workout-form__label">Moves:</label>
-        <textarea className="workout-form__input" value={moves} onChange={onMovesChange} />
-         
-        
+        <input
+          className="workout-form__input"
+          type="string"
+          value={moves}
+          onChange={onMovesChange}
+        />
         <label className="workout-form__label">Reps:</label>
         <input className="workout-form__input" type="string" value={reps} onChange={onRepsChange} />
         <label className="workout-form__label">Timing:</label>
@@ -105,7 +108,11 @@ function WorkoutForm(props) {
           onChange={onRatingChange}
         />
         <label className="workout-form__label">Notes:</label>
-        <textarea className="workout-form__input" value={notes} onChange={onNotesChange} />
+        <textarea 
+          className="workout-form__input"
+          value={notes}
+          onChange={onNotesChange}
+        />
 
         <input
           className="workout-form__submit"

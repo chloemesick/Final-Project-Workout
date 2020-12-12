@@ -11,8 +11,8 @@ function WorkoutForm(props) {
   if (initialState.reps === undefined) initialState.reps = "20";
   if (initialState.timing === undefined) initialState.timing = "30 seconds";
   if (initialState.notes === undefined) initialState.notes = "";
-  if (initialState.dayOfWeek === undefined) initialState.dayOfWeek = "Sunday";
   if (initialState.rating === undefined) initialState.rating = 3;
+  if (initialState.dayOfWeek === undefined) initialState.dayOfWeek = "Sunday";
 
   const [dateAdded, setDateAdded] = useState(initialState.dateAdded);
   const [focus, setFocus] = useState(initialState.focus);
@@ -20,8 +20,8 @@ function WorkoutForm(props) {
   const [reps, setReps] = useState(initialState.reps);
   const [timing, setTiming] = useState(initialState.timing);
   const [notes, setNotes] = useState(initialState.notes);
-  const [dayOfWeek, setDayOfWeek] = useState(initialState.dayOfWeek);
   const [rating, setRating] = useState(initialState.rating);
+  const [dayOfWeek, setDayOfWeek] = useState(initialState.dayOfWeek);
   const [errorMessage, setErrorMessage] = useState("");
 
   const onDateAddedChange = (event) => {
@@ -96,7 +96,7 @@ function WorkoutForm(props) {
         <input
           className="workout-form__input"
           type="number"
-          value={rating}
+          value={ratingString}
           onChange={onRatingChange}
         />
         <label className="workout-form__label">Notes:</label>

@@ -39,8 +39,9 @@ function Workout(props) {
         <div className="workout__reps">{reps}</div>
         <div className="workout__timing">{timing}</div>
         <div className="workout__notes">{notes}</div>
-        <div className="workout__rating">{ratingString}</div>
         <div className="workout__dayOfWeek">{dayOfWeek}</div>
+        <div className="workout__rating">{ratingString}</div>
+    
         {errorMessage && <ErrorMessage>{errorMessage}</ErrorMessage>}
       </div>
       <div>

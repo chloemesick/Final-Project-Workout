@@ -15,11 +15,11 @@ function AddWorkout(props) {
     reps,
     timing,
     notes,
-    dayOfWeek,
-    rating
+    rating,
+    dayOfWeek
     
   ) => {
-    saveWorkout({ dateAdded, focus, moves, reps, timing, notes, dayOfWeek, rating});
+    saveWorkout({ dateAdded, focus, moves, reps, timing, notes, rating, V });
   };
 
   // function AddWorkout() {

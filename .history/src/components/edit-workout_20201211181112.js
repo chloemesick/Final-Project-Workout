@@ -16,9 +16,9 @@ function EditWorkout(props) {
     dateAdded,
     focus,
     moves,
+    
     reps,
     timing,
-    notes,
     dayOfWeek,
     rating
     

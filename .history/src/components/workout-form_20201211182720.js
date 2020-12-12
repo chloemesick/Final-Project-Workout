@@ -20,8 +20,8 @@ function WorkoutForm(props) {
   const [reps, setReps] = useState(initialState.reps);
   const [timing, setTiming] = useState(initialState.timing);
   const [notes, setNotes] = useState(initialState.notes);
-  const [dayOfWeek, setDayOfWeek] = useState(initialState.dayOfWeek);
   const [rating, setRating] = useState(initialState.rating);
+  const [dayOfWeek, setDayOfWeek] = useState(initialState.dayOfWeek);
   const [errorMessage, setErrorMessage] = useState("");
 
   const onDateAddedChange = (event) => {

@@ -19,7 +19,7 @@ function AddWorkout(props) {
     rating
     
   ) => {
-    saveWorkout({ dateAdded, focus, moves, reps, timing, notes, dayOfWeek, rating});
+    saveWorkout({ dateAdded, focus, moves, reps, timing, notes, rating});
   };
 
   // function AddWorkout() {

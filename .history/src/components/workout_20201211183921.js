@@ -39,7 +39,7 @@ function Workout(props) {
         <div className="workout__reps">{reps}</div>
         <div className="workout__timing">{timing}</div>
         <div className="workout__dayOfWeek">{dayOfWeek}</div>
-        <div className="workout__notes">Notes: {notes} </div>
+        <div className="workout__notes">{notes} Notes: </div>
 
         <div className="workout__rating">{ratingString}</div>
 

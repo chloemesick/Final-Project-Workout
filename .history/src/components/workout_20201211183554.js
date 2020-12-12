@@ -7,7 +7,7 @@ import "./workout.css";
 
 function Workout(props) {
   const { id, data } = props;
-  const { dateAdded, focus, moves, notes, reps, timing, rating, dayOfWeek } = data;
+  const { dateAdded, focus, moves, notes, reps, timing,rating, dayOfWeek } = data;
 
   const ratingString = "💧".repeat(rating) + "".repeat(5 - rating);
 
@@ -39,10 +39,10 @@ function Workout(props) {
         <div className="workout__reps">{reps}</div>
         <div className="workout__timing">{timing}</div>
         <div className="workout__dayOfWeek">{dayOfWeek}</div>
-        <div className="workout__notes">Notes: {notes} </div>
-
+        <div className="workout__notes">{notes}</div>
+      
         <div className="workout__rating">{ratingString}</div>
-
+      
         {errorMessage && <ErrorMessage>{errorMessage}</ErrorMessage>}
       </div>
       <div>

@@ -94,8 +94,8 @@ function WorkoutForm(props) {
         <input className="workout-form__input" value={timing} onChange={onTimingChange} />
         <label className="workout-form__label">Rating:</label>
         <input
-          min="1"
-          max="5"
+        min=1
+        max=5
           className="workout-form__input"
           type="number"
           value={rating}
